@@ -1,0 +1,50 @@
+#page-home{
+
+
+  display: flex;
+  flex-direction: column;
+  padding:20px;
+
+  .tittle{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 20px;
+    
+  }
+
+  .main-content{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    gap:5px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    padding:32px;
+    background: #222224;
+  
+
+  }
+
+  .relatorio{
+
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    word-wrap: break-word;
+
+    .funcionar{
+      margin: 15px;
+      font-weight: 580;
+      box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+      padding:10px;
+      background: #222224;
+      border-radius: 8px;
+    }
+  }
+}
